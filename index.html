@@ -1,170 +1,131 @@
 <!DOCTYPE html>
-<!-- saved from url=(0023)https://localhost:7146/ -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> - 1123826c</title>
-    <link rel="stylesheet" href="./1123826_files/bootstrap.min.css">
-    <link rel="stylesheet" href="./Content/site.css">
-    <link rel="stylesheet" href="./1123826_files/_1123826_mvc.styles.css">
-    <link rel="stylesheet" href="./1123826_files/all.min.css">
+    <title>Italian Brainrot - 介紹</title>
 
-
+    <!-- 樣式檔案 -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/site.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/all.min.css">
 </head>
 <body>
-    <header b-appfreolor="" class="top">
-        <nav b-appfreolor="" class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3">
-            <div b-appfreolor="" class="container-fluid">
-                <a class="navbar-brand" href="https://localhost:7146/">1123826</a>
-                <button b-appfreolor="" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span b-appfreolor="" class="navbar-toggler-icon"></span>
+
+    <div class="top">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">LOGO</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div b-appfreolor="" class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul b-appfreolor="" class="navbar-nav flex-grow-1">
-                        <li b-appfreolor="" class="nav-item">
-                            <a class="nav-link" href="./index.html">首頁</a>
-                        </li>
-                        <li b-appfreolor="" class="nav-item">
-                            <a class="nav-link" href="./PageA.html">我喜歡的音樂</a>
-                        </li>
-                        <li b-appfreolor="" class="nav-item">
-                            <a class="nav-link" href="./PageB.html">關於我和作品</a>
- 
-                    </li></ul>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./index.html">首頁</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./PageA.html">我喜歡的音樂</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./PageB.html">關於我和作品</a></li>
+                    </ul>
                 </div>
             </div>
         </nav>
-    </header>
-    <div b-appfreolor="" class="container">
-        <main b-appfreolor="" role="main" class="pb-3">
-            <!-- 加上上下間距 py-5 -->
-<div class="container py-5">
-    <div class="row">
-        <div class="col-12">
-            <div class="box text-center">
-                <h1>大家好</h1><br>
-            
-                <p></p>
-                <p style="font-size: 2.5rem;">這是有關「Italian Brainrot」的介紹</p>
-            </div>
-        </div>
     </div>
-</div>
 
-<div class="container py-5">
-    <div class="row g-4">
-        <!-- 第一組 左邊 -->
-        <div class="col-md-6">
-            <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
-                <img src="./images/1.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
-                <div class="card-body text-center d-flex flex-column align-items-center">
-                    <div class="d-flex gap-2 mb-3">
-                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLeft1" aria-expanded="false" aria-controls="collapseLeft1">
-                            查看更多
-                        </button>
-                        <button class="btn btn-outline-light" type="button" onclick="document.getElementById(&#39;audio1&#39;).play()">
-                            🔊
-                        </button>
-                        <audio id="audio1" src="/sounds/audio1.MP3"></audio>
+    <main class="container pb-3">
+
+        <div class="container py-5 text-center">
+            <h1>大家好</h1>
+            <p style="font-size: 2.5rem;">這是有關「Italian Brainrot」的介紹</p>
+        </div>
+
+        <div class="container py-5">
+            <div class="row g-4">
+                <!-- 第1組 左 -->
+                <div class="col-md-6">
+                    <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
+                        <img src="images/1.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="d-flex gap-2 mb-3">
+                                <button class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseLeft1">查看更多</button>
+                                <button class="btn btn-outline-light" onclick="document.getElementById('audio1').play()">🔊</button>
+                                <audio id="audio1" src="sounds/audio1.mp3"></audio>
+                            </div>
+                            <div class="collapse mt-3" id="collapseLeft1">
+                                <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255,255,255,0.1);">
+                                    這是 Turn Turn Turn sahur。
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                    <div class="collapse mt-3" id="collapseLeft1">
-                        <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255, 255, 255, 0.1);">
-                            這是Turn Turn Turn Turn Turn Turn Turn Turn Turn sahur。
+                </div>
+
+                <!-- 第1組 右 -->
+                <div class="col-md-6">
+                    <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
+                        <img src="images/2.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="d-flex gap-2 mb-3">
+                                <button class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseRight1">查看更多</button>
+                                <button class="btn btn-outline-light" onclick="document.getElementById('audio2').play()">🔊</button>
+                                <audio id="audio2" src="sounds/audio2.mp3"></audio>
+                            </div>
+                            <div class="collapse mt-3" id="collapseRight1">
+                                <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255,255,255,0.1);">
+                                    這是 Talalelo Talala。
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- 第一組 右邊 -->
-        <div class="col-md-6">
-            <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
-                <img src="./images/2.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
-                <div class="card-body text-center d-flex flex-column align-items-center">
-                    <div class="d-flex gap-2 mb-3">
-                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRight1" aria-expanded="false" aria-controls="collapseRight1">
-                            查看更多
-                        </button>
-                        <button class="btn btn-outline-light" type="button" onclick="document.getElementById(&#39;audio2&#39;).play()">
-                            🔊
-                        </button>
-                        <audio id="audio2" src="/sounds/audio2.mp3"></audio>
-                    </div>
-                    <div class="collapse mt-3" id="collapseRight1">
-                        <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255, 255, 255, 0.1);">
-                            這是Talalelo Talala。
+        <!-- 第二組 -->
+        <div class="container py-5">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
+                        <img src="images/3.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="d-flex gap-2 mb-3">
+                                <button class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseLeft2">查看更多</button>
+                                <button class="btn btn-outline-light" onclick="document.getElementById('audio3').play()">🔊</button>
+                                <audio id="audio3" src="sounds/audio3.mp3"></audio>
+                            </div>
+                            <div class="collapse mt-3" id="collapseLeft2">
+                                <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255,255,255,0.1);">
+                                    這是 Cappuccino Assassino。
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
 
-<div class="container py-5">
-    <div class="row g-4">
-        <!-- 第二組 左邊 -->
-        <div class="col-md-6">
-            <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
-                <img src="./images/3.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
-                <div class="card-body text-center d-flex flex-column align-items-center">
-                    <div class="d-flex gap-2 mb-3">
-                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLeft2" aria-expanded="false" aria-controls="collapseLeft2">
-                            查看更多
-                        </button>
-                        <button class="btn btn-outline-light" type="button" onclick="document.getElementById(&#39;audio3&#39;).play()">
-                            🔊
-                        </button>
-                        <audio id="audio3" src="/sounds/audio3 .MP3"></audio>
-                    </div>
-                    <div class="collapse mt-3" id="collapseLeft2">
-                        <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255, 255, 255, 0.1);">
-                            這是Cappuccino Assassino。
+                <div class="col-md-6">
+                    <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
+                        <img src="images/4.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
+                        <div class="card-body text-center d-flex flex-column align-items-center">
+                            <div class="d-flex gap-2 mb-3">
+                                <button class="btn btn-light" data-bs-toggle="collapse" data-bs-target="#collapseRight2">查看更多</button>
+                                <button class="btn btn-outline-light" onclick="document.getElementById('audio4').play()">🔊</button>
+                                <audio id="audio4" src="sounds/audio4.mp3"></audio>
+                            </div>
+                            <div class="collapse mt-3" id="collapseRight2">
+                                <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255,255,255,0.1);">
+                                    這是 ballerina cappuccina。
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- 第二組 右邊 -->
-        <div class="col-md-6">
-            <div class="card shadow-sm border-0 h-100 text-white" style="background-color: rgba(50, 50, 50, 0.6);">
-                <img src="./images/4.jpg" class="card-img-top rounded-top" alt="圖片說明" loading="lazy" style="object-fit: cover; height: 300px;">
-                <div class="card-body text-center d-flex flex-column align-items-center">
-                    <div class="d-flex gap-2 mb-3">
-                        <button class="btn btn-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRight2" aria-expanded="false" aria-controls="collapseRight2">
-                            查看更多
-                        </button>
-                        <button class="btn btn-outline-light" type="button" onclick="document.getElementById(&#39;audio4&#39;).play()">
-                            🔊
-                        </button>
-                        <audio id="audio4" src="/sounds/audio4.MP3"></audio>
-                    </div>
-                    <div class="collapse mt-3" id="collapseRight2">
-                        <div class="card card-body border rounded shadow-sm text-white" style="background-color: rgba(255, 255, 255, 0.1);">
-                            這是ballerina cappuccina。
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+    </main>
 
-
-
-        </main>
-    </div>
-
-        
-    <script src="./1123826_files/jquery.min.js.下載"></script>
-    <script src="./1123826_files/bootstrap.bundle.min.js.下載"></script>
-    <script src="./1123826_files/site.js.下載"></script>
-    
-
-<!-- Visual Studio Browser Link -->
-<script type="text/javascript" src="./1123826_files/browserLink" async="async" id="__browserLink_initializationData" data-requestid="04e19b61a75d4a539fd4e6dc908d0516" data-requestmappingfromserver="false" data-connecturl="http://localhost:50166/a3cafd33bcb04cb98e14c6e1126e3910/browserLink"></script>
-<!-- End Browser Link -->
-<script src="./1123826_files/aspnetcore-browser-refresh.js.下載"></script>
-
-</body></html>
+    <!-- JS 資源 -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
